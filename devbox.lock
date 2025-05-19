@@ -1,0 +1,57 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2025-05-17T07:32:44Z",
+      "resolved": "github:NixOS/nixpkgs/3fcbdcfc707e0aa42c541b7743e05820472bdaec?lastModified=1747467164&narHash=sha256-JBXbjJ0t6T6BbVc9iPVquQI9XSXCGQJD8c8SgnUquus%3D"
+    },
+    "opentofu@latest": {
+      "last_modified": "2025-05-06T08:06:31Z",
+      "resolved": "github:NixOS/nixpkgs/1cb1c02a6b1b7cf67e3d7731cbbf327a53da9679#opentofu",
+      "source": "devbox-search",
+      "version": "1.9.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nicvb3vnw7y3x1pc0q75cq0gav3lmsi8-opentofu-1.9.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nicvb3vnw7y3x1pc0q75cq0gav3lmsi8-opentofu-1.9.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/39bwgbp49635ak4qg5y2092syd45vi78-opentofu-1.9.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/39bwgbp49635ak4qg5y2092syd45vi78-opentofu-1.9.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dvqm4fcrjysdlqsw63p4mzw32jpf8ski-opentofu-1.9.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dvqm4fcrjysdlqsw63p4mzw32jpf8ski-opentofu-1.9.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vkapg3ck8mibgffm1kh65spidh5w087q-opentofu-1.9.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vkapg3ck8mibgffm1kh65spidh5w087q-opentofu-1.9.1"
+        }
+      }
+    }
+  }
+}
