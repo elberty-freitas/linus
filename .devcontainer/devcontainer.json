@@ -12,5 +12,29 @@
       ]
     }
   },
-  "remoteUser": "devbox"
+  "remoteUser": "devbox",
+  "mounts": [
+    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+  ],
+  "features": {
+    "docker-in-docker": "latest"
+  }
 }
+
+
+// {
+//   "name": "Devbox Remote Container",
+//   "build": {
+//     "dockerfile": "./Dockerfile",
+//     "context": ".."
+//   },
+//   "customizations": {
+//     "vscode": {
+//       "settings": {},
+//       "extensions": [
+//         "jetpack-io.devbox"
+//       ]
+//     }
+//   },
+//   "remoteUser": "devbox"
+// }
